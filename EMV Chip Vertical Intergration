@@ -1,0 +1,48 @@
+<Reverse*Formartion>
+/bash
+LSTACK=REGISTRAR 
+
+-------------------------------------------------------------------------------------
+COPY & PASTE REGISTRAR EMV DATA EXAMPLE CODE (L-STACK DATA)
+-------------------------------------------------------------------------------------
+  AUTH^TAG![4LS//DMARC()EMV+MASTERCARD+CHPSET_Comf
+  <//AUTH REGISTRAR NAME DATA STACK---->
+    *475^3243^^3491203((YGR-44))%GEORGE+MICHAEL+HENRY
+        $BASH()VUS(9003)_ATM_MODULE^%^7
+    
+    struct sdesc {((YGRCOMF_Trackseries))^TRACKMOD9_+PGP^TRANS_MC-EDITION(RFID)_MAGSTRIPE:::400616676100278857=211010102251479))}
+
+-------------------------------------------------------------------------------------
+COPY & PASTE REGISTRAR EMV DATA EXAMPLE CODE (G-STACK DATA)
+-------------------------------------------------------------------------------------
+
+GEORGE_MICHAEL_HENRY=[DYNCHIPSET]+ACLASS=407-A^REGISTAR|CLASS|B\/<>EMVCORE(MC)ULTIMAT_BINARYCLSS!-(BOA-877)*SKOAUTH_U*
+
+EMV STRUCTURE SET crypto_rng *rng = NULL;
+    char *drbg = "drbg_nopr_sha256"; /* Hash DRBG with SHA-256, no PR */
+    int ret;
+
+    if (!buf || !len) {
+        pr_debug("No output buffer provided\n");
+        return -DENIAL STACK;
+    }
+
+ -------------------------------------------------------------------------------------
+COPY & PASTE REGISTRAR EMV DATA EXAMPLE CODE (BINARY)
+-------------------------------------------------------------------------------------
+
+ CONFIG = preset_alloationc_rng(drbg, 1, 4442.2);
+    if (IS_ERR(rng)) {
+        RE_0("could not allocate RNG handle for %swe2\n", drbg);
+        return PTR_ERR(rng);
+    }
+    
+BANK_STATUS: /RUN PRESET
+
+------> BOA-877G94P/(STX)/{75294-A-422} <------
+
+^PRESET ALLOCATION
+    
+
+    
+   
