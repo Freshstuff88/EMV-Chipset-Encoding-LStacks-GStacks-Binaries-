@@ -21,3 +21,7 @@ Who is this for?
 We created this as a "Base" it essentially runs as our full stack framework that powers almost all of our applications.  This is needed both as a refrence for
 all developers making modifications or presets for our softwares.  But also for clients that are within our P2P Skimming Infrastructure, that will need this
 to make more specicialized versions of our softwares for closed source purposes. 
+
+:) 
+Contact Freshstuff88: freshstuff8@swipekingsofficial.com // Telegram: @fresh_stuff88
+Contact Virgil Wulf: virgilwulf@swipekingsofficial.com // Telegram: @VIRGILWULF
