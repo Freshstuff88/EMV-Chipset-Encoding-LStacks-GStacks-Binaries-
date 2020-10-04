@@ -1,0 +1,29 @@
+EMV^START, these are the base files for encoding and the priting proccess, ONLY FOR GRUNER SCHRIEBER SOFTWARE
+
+
+// To view a CPU profile, drop the file into https://speedscope.app.
+		// Note: Running the CPU profiler doesn't work under Windows subsystem for
+		// Linux. The profiler has to be built for native Windows and run using the
+		// command prompt instead.
+		if cpuprofileFile != "" {
+			f, err := os.Create(cpuprofileFile)
+			if err != nil {
+				logger.PrintErrorToStderr(osArgs, fmt.Sprintf(
+					"Failed to create cpuprofile file: %s", err.Error()))
+				return
+			}
+			defer f.Close()
+			pprof.StartCPUProfile(f)
+			defer pprof.StopCPUProfile()
+		}
+
+		if cpuprofileFile != "" {
+			// The CPU profiler in Go only runs at 100 Hz, which is far too slow to
+			// return useful information for esbuild, since it's so fast. Let's keep
+			// running for 30 seconds straight, which should give us 3,000 samples.
+			seconds := 30.0
+			start := time.Now()
+			for time.Since(start).Seconds() < seconds {
+				exitCode = cli.Run(osArgs)
+        
+        ^ Easy... Peasy. 
